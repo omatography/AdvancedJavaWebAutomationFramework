@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c35685ea-7b31-47b1-9bf6-ddfd17abdac3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/factory/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/PropertiesReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/appHooks/AppHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/testRunners/MyTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/appFeatures/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/testRunners/MyTestRunnerTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/testRunners/MyTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/testRunners/MyTestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +42,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Acer/Desktop/AdvancedJavaWebAutomationFramework/src/test/java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Desktop\AdvancedJavaWebAutomationFramework\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.omatography.AdvancedJavaWebAutomationFramework.testRunners" />
+      <recent name="org.omatography.AdvancedJavaWebAutomationFramework.stepDefinitions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.MyTestRunnerTestNG">
     <configuration name="Scenario: searching smartphone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/appFeatures/login.feature" />
@@ -78,8 +76,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJavaWebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners" />
+      <option name="MAIN_CLASS_NAME" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners.MyTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJavaWebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners" />
+      <option name="MAIN_CLASS_NAME" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners.MyTestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestRunnerTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJavaWebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners" />
+      <option name="MAIN_CLASS_NAME" value="org.omatography.AdvancedJavaWebAutomationFramework.testRunners.MyTestRunnerTestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyTestRunnerTestNG" />
+        <item itemvalue="JUnit.MyTestRunner" />
+        <item itemvalue="TestNG.MyTestRunner" />
         <item itemvalue="Cucumber Java.Scenario: searching smartphone" />
       </list>
     </recent_temporary>
