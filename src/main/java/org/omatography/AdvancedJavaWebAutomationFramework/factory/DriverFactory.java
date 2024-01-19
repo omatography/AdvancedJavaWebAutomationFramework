@@ -3,6 +3,7 @@ package org.omatography.AdvancedJavaWebAutomationFramework.factory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
 
@@ -17,7 +18,7 @@ public class DriverFactory {
             tlDriver.set(new ChromeDriver());
         } if(browser.equalsIgnoreCase("firefox")){
             WebDriverManager.firefoxdriver().setup();
-            tlDriver.set(new ChromeDriver());
+            tlDriver.set(new FirefoxDriver());
         } if(browser.equalsIgnoreCase("safari")){
             WebDriverManager.firefoxdriver().setup();
             tlDriver.set(new ChromeDriver());

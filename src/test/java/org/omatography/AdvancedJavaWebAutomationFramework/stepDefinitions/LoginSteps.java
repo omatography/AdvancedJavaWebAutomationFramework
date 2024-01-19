@@ -5,12 +5,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.omatography.AdvancedJavaWebAutomationFramework.pages.LoginPage;
 
+import java.io.IOException;
+
 public class LoginSteps {
 
     LoginPage loginPage = new LoginPage();
     @Given("I am at amazon login page")
     public void i_Am_At_Amazon_Login_Page() {
-        loginPage.loadPage("https://www.amazon.in/");
+        loginPage.loadPage("homePageUrl");
     }
     @Given("I have a search field in amazon")
     public void i_have_a_search_field_in_amazon() {

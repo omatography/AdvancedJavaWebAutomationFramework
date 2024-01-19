@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c35685ea-7b31-47b1-9bf6-ddfd17abdac3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/testRunners/MyTestRunnerTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/ComponentUtils/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/constants/LocatorConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ElementUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ExcelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ProjectGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/locators.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/urls.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/testRunners/MyTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/testRunners/MyTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/factory/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/PropertiesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/LoginSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +53,42 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Acer/Desktop/AdvancedJavaWebAutomationFramework/src/test/java"
+    "last_opened_file_path": "C:/Users/Acer/Desktop/AdvancedJavaWebAutomationFramework/src/test/resources/properties"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Desktop\AdvancedJavaWebAutomationFramework\src\test\resources\properties" />
       <recent name="C:\Users\Acer\Desktop\AdvancedJavaWebAutomationFramework\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Desktop\AdvancedJavaWebAutomationFramework\src\test\resources\properties" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.omatography.AdvancedJavaWebAutomationFramework.testRunners" />
       <recent name="org.omatography.AdvancedJavaWebAutomationFramework.stepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MyTestRunnerTestNG">
+  <component name="RunManager" selected="Cucumber Java.Feature: login">
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/appFeatures/login.feature" />
+      <option name="GLUE" value="org.omatography.AdvancedJavaWebAutomationFramework.stepDefinitions org.omatography.AdvancedJavaWebAutomationFramework.appHooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AdvancedJavaWebAutomationFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: searching smartphone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/appFeatures/login.feature" />
@@ -127,10 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MyTestRunnerTestNG" />
-        <item itemvalue="JUnit.MyTestRunner" />
-        <item itemvalue="TestNG.MyTestRunner" />
+        <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="Cucumber Java.Scenario: searching smartphone" />
+        <item itemvalue="JUnit.MyTestRunner" />
+        <item itemvalue="TestNG.MyTestRunnerTestNG" />
+        <item itemvalue="TestNG.MyTestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -144,5 +178,10 @@
       <updated>1705316416388</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AdvancedJavaWebAutomationFramework$Feature__login.ic" NAME="Feature: login Coverage Results" MODIFIED="1705643260698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>
