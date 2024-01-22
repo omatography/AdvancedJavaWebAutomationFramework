@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c35685ea-7b31-47b1-9bf6-ddfd17abdac3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/StepDefinitionsBaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/constants/LocatorConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/constants/GlobalConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/factory/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ElementUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ElementUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ProjectGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ProjectGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/omatography/AdvancedJavaWebAutomationFramework/utils/ProjectGeneric.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/appHooks/AppHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/appHooks/AppHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/locators.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/locators.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/StepDefinitionsBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/StepDefinitionsBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Acer/Desktop/AdvancedJavaWebAutomationFramework/src/test/resources/properties"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/Desktop/AdvancedJavaWebAutomationFramework/src/test/resources/properties&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\Desktop\AdvancedJavaWebAutomationFramework\src\test\resources\properties" />
@@ -179,14 +181,14 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/omatography/AdvancedJavaWebAutomationFramework/stepDefinitions/LoginSteps.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AdvancedJavaWebAutomationFramework$Feature__login.ic" NAME="Feature: login Coverage Results" MODIFIED="1705643260698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/AdvancedJavaWebAutomationFramework$Feature__login.ic" NAME="Feature: login Coverage Results" MODIFIED="1705834906233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
   </component>

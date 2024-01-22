@@ -1,5 +1,6 @@
 package org.omatography.AdvancedJavaWebAutomationFramework.utils;
 
+import org.omatography.AdvancedJavaWebAutomationFramework.constants.GlobalConstants;
 import org.omatography.AdvancedJavaWebAutomationFramework.factory.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +15,7 @@ public class ElementUtils {
     Properties locatorProperties;
     public ElementUtils() throws IOException {
         driver = DriverFactory.getDriver();
-        locatorProperties =  PropertiesReader.returnProperties("locators.properties");
+        locatorProperties =  PropertiesReader.returnProperties(GlobalConstants.ProjectConstants.locatorsProperties.toString());
     }
 
     public void loadUrl(String url){
@@ -42,4 +43,29 @@ public class ElementUtils {
         System.out.println("Clicking"+uri);
         driver.findElement(returnLocator(uri)).click();
     }
+
+    public void clickDynamicLocator(String uri){
+        System.out.println("Clicking"+uri);
+        driver.findElement(returnLocator(uri)).click();
+    }
+
+    //isExist, isExistDynamicLocator, getElementReference, getElementReferenceDynamic
+    //getMultipleElememtRef, ggetMultipleElementRefDynamic, getText, verifyValue,
+    //waitForElementToExist
+
+    //hoverObject, MoveToElement, keyPress, getColorPorperty, Keys: hitEnter HitBackSpece, etc : Use Robot Class
+    //Explore robotMethods  check
+    //scrollup scroldown scrollTo, xoom
+    //mouse functionalities: cursor, scroll, clicks
+    //alertAccept, alertDismiss, getAertText
+    //fileUpload,
+    //sendKeys, sendKeysDynamic, sendKeysClearMeth2, sendKeysNoClest, sendKeysandEnter
+    //dragAndDrop functons
+    //frame functions
+    //getToolTipText
+    //Tabs, closeAllTabsExceptFirst, switch tab, etc
+    //dropdown Functionalities getDropDownList, isSelected, getDropDownValues
+    // isSelected isEnabled4
+    //highlight anf unhigh elemnt
+
 }

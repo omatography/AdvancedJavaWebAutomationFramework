@@ -1,26 +1,27 @@
 package org.omatography.AdvancedJavaWebAutomationFramework.stepDefinitions;
 
-import io.cucumber.java.an.E;
-import org.omatography.AdvancedJavaWebAutomationFramework.factory.DriverFactory;
 import org.omatography.AdvancedJavaWebAutomationFramework.pages.LoginPage;
+import org.omatography.AdvancedJavaWebAutomationFramework.utils.Database;
 import org.omatography.AdvancedJavaWebAutomationFramework.utils.ElementUtils;
-import org.omatography.AdvancedJavaWebAutomationFramework.utils.ProjectGeneric;
-import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class StepDefinitionsBaseClass {
 
     protected static LoginPage loginPage ;
     protected static ElementUtils  elementUtils ;
-    protected static ProjectGeneric projectGeneric;
+    public static Database mySql;
 
 
-    public static void initClasses() throws IOException {
+
+    public static void initClasses() throws IOException, SQLException {
         //utilities
         elementUtils  = new ElementUtils();
-        projectGeneric = new ProjectGeneric();
         //page objects
-        loginPage = new LoginPage(elementUtils,projectGeneric);
+        loginPage = new LoginPage(elementUtils);
+        mySql = new Database("jdbc:mysql://127.0.0.1:3306/oma","root","admin");
+        mySql.connect();
+
     }
 }
